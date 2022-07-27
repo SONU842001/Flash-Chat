@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 import FirebaseCore
 
 @UIApplicationMain
@@ -20,6 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
 //        firebase database created
         let db = Firestore.firestore()
+        print(db)
         return true
     }
 
